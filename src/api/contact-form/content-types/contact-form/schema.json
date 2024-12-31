@@ -1,0 +1,112 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_forms",
+  "info": {
+    "singularName": "contact-form",
+    "pluralName": "contact-forms",
+    "displayName": "contactForm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "phone": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "typeOfService": {
+      "type": "enumeration",
+      "enum": [
+        "Branding",
+        "Creative Content",
+        "Content Strategy",
+        "Media Services",
+        "Commerce & eCommerce",
+        "Customer Relationship Management",
+        "Influencer Marketing",
+        "Events & Activations",
+        "Data Analytics",
+        "Tech"
+      ],
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "objective": {
+      "type": "enumeration",
+      "enum": [
+        "Awareness",
+        "Engagement",
+        "Conversion"
+      ],
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "message": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "terms": {
+      "type": "boolean",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "budget": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "<RM5,000",
+        "RM5,000 - RM20,000",
+        ">RM20,000"
+      ]
+    }
+  }
+}

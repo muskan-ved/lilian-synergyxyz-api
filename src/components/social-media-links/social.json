@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_social_media_links_socials",
+  "info": {
+    "displayName": "social",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": false,
+      "component": "social-media-links.social-media-links"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

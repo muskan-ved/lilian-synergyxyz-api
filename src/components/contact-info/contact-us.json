@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_contact_info_contact_uses",
+  "info": {
+    "displayName": "Contact Us",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "blocks"
+    },
+    "email": {
+      "type": "blocks"
+    },
+    "availableTime": {
+      "type": "string"
+    },
+    "availableDays": {
+      "type": "string"
+    },
+    "whatsAppNumber": {
+      "type": "blocks"
+    },
+    "address": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_home_page_our_stories",
+  "info": {
+    "displayName": "Our Story",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "highlightText": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "videos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.buttons"
+    }
+  }
+}

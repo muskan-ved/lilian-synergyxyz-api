@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_main_card_bodies",
+  "info": {
+    "displayName": "CardBody",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.services-card"
+    }
+  }
+}

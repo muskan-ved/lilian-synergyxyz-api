@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_main_differentiator_bodies",
+  "info": {
+    "displayName": "DifferentiatorBody",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "differentiator": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.service-differentiator"
+    }
+  }
+}

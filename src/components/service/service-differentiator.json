@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_service_service_differentiators",
+  "info": {
+    "displayName": "Service Differentiator",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "order": {
+      "type": "string"
+    }
+  }
+}
